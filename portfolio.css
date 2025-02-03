@@ -1,0 +1,149 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #2563EB, #4F46E5);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.social-links {
+    margin-top: 15px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+    color: #93C5FD;
+}
+
+/* Section */
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section-content {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Light Background Sections */
+.bg-light {
+    background: #F3F4F6;
+}
+
+/* Grid Layout for Skills */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.skill-card {
+    background: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+/* Experience Card */
+.experience-card {
+    background: white;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.experience-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    color: #2563EB;
+}
+
+.date {
+    font-size: 0.9rem;
+    color: gray;
+    margin-top: 5px;
+}
+
+.description {
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Contact Section */
+.contact-card {
+    max-width: 400px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.contact-item a {
+    color: #555;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    color: #2563EB;
+}
+
+/* Footer */
+.footer {
+    background: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+  
